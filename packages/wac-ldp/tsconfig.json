@@ -1,0 +1,28 @@
+{
+  "env": "node",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "typeRoots": ["./types"],
+  "typedef": [
+    true,
+    "call-signature",
+    "property-declaration"
+  ],
+  "exclude": [
+    "test",
+    "node_modules",
+    "dist"
+  ]
+}
